@@ -144,6 +144,15 @@ Ecotag.exe --tasks-path ..\demo\tasks-licenses.json  --base-path ..\demo --compa
 # then navigate to: http://localhost:5000/ 
 ```
 
+## Getting started with Docker
+
+In the "docker" folder at the root of this project, you will find a subfolder "MlCli" that contains everything needed
+to launch ML-CLI. It contains a custom tasks-licenses.json with all tasks disabled, as the goal is just to launch the
+webapp without doing any other action, and it does not download the demo API.
+
+Please note the "docker/MlCli" folder works as a standalone: it will download the required artifacts from the GitHub
+repository. Therefore, you can place this folder wherever you want on your machine.
+
 ## Getting started with JupyterLab on unbuntu
 
 You need to install the plugin @jupyterlab/server-proxy as a prerequist :
